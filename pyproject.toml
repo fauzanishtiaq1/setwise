@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "setwise"
+version = "0.1.0"
+description = "Dependency-free conformal risk calibration on an ordered parameter grid"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Fauzan Ishtiaq" }]
+dependencies = []
+classifiers = ["Programming Language :: Python :: 3", "Programming Language :: Python :: 3 :: Only", "License :: OSI Approved :: MIT License"]
+
+[project.urls]
+Repository = "https://github.com/fauzanishtiaq1/setwise"
+Documentation = "https://github.com/fauzanishtiaq1/setwise#readme"
+
+[project.scripts]
+setwise = "setwise.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["setwise*"]

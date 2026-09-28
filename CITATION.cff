@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Setwise: dependency-free conformal risk calibration"
+message: "If Setwise contributes to your work, please cite the software and the CRC paper."
+authors:
+  - family-names: Ishtiaq
+    given-names: Fauzan
+version: 0.1.0
+date-released: 2026-09-28
+repository-code: https://github.com/fauzanishtiaq1/setwise
+license: MIT
+references:
+  - type: article
+    authors:
+      - family-names: Angelopoulos
+        given-names: Anastasios N.
+      - family-names: Bates
+        given-names: Stephen
+      - family-names: Fisch
+        given-names: Adam
+      - family-names: Lei
+        given-names: Lihua
+      - family-names: Schuster
+        given-names: Tariq
+    title: "Conformal Risk Control"
+    year: 2024
+    url: https://openreview.net/forum?id=33XGfHLtZg
+    doi: 10.48550/arXiv.2208.02814
